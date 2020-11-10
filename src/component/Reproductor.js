@@ -6,11 +6,10 @@ import 'react-h5-audio-player/lib/styles.css';
 
 export const Player = () => (
     <AudioPlayer
-    style={{color:'black'}}
-      autoPlay
-      preload 
+     autoPlay= {true}
       showSkipControls ={false}
       showDownloadProgress ={false}
+      showJumpControls={false}
       src="http://streaming.jmsstudiosinc.com:8008/stream"
     
     />
